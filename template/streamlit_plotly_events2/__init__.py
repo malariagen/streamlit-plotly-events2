@@ -6,13 +6,13 @@ _RELEASE = False
 
 if not _RELEASE:
     _component_func = components.declare_component(
-        "streamlit_plotly_events2",
+        "plotly_events",
         url="http://localhost:3001",
     )
 else:
     parent_dir = os.path.dirname(os.path.abspath(__file__))
     build_dir = os.path.join(parent_dir, "frontend/build")
-    _component_func = components.declare_component("streamlit_plotly_events2", path=build_dir)
+    _component_func = components.declare_component("plotly_events", path=build_dir)
 
 def plotly_events(
     plot_fig,

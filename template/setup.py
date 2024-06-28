@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit-plotly-events2",
-    version="0.0.1",
+    version="0.0.6",
     author="Chiyun Lee",
     author_email="chiyun.alberto.lee@gmail.com",
     description="Reviving the Streamlit community package, streamlit-plotly-events",
