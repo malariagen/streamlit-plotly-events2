@@ -6,23 +6,20 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
-    name="streamlit-custom-component",
+    name="streamlit-plotly-events2",
     version="0.0.1",
-    author="John Smith",
-    author_email="john@example.com",
-    description="Streamlit component that allows you to do X",
+    author="Chiyun Lee",
+    author_email="chiyun.alberto.lee@gmail.com",
+    description="Reviving the Streamlit community package, streamlit-plotly-events",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/malariagen/streamlit-plotly-events2",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
-    python_requires=">=3.7",
+    python_requires=">=3.10",
     install_requires=[
-        # By definition, a Custom Component depends on Streamlit.
-        # If your component has other Python dependencies, list
-        # them here.
-        "streamlit >= 0.63",
+        "streamlit >= 1.36",
     ],
     extras_require={
         "devel": [

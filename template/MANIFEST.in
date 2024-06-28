@@ -1,1 +1,1 @@
-recursive-include my_component/frontend/build *
+recursive-include streamlit-plotly-events2/frontend/build *

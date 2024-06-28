@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MyComponent from "./MyComponent"
+import StreamlitPlotlyEventsComponent from "./StreamlitPlotlyEventsComponent"
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <StreamlitPlotlyEventsComponent />
   </React.StrictMode>,
   document.getElementById("root")
 )
